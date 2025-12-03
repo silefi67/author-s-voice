@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Голос автора</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Голос автора</h1>
+      <nav>
+        <ul>
+          <li><a href="#interviews">Интервью</a></li>
+          <li><a href="#form">Оставить заявку</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Секция с карточками интервью -->
+    <section id="interviews" class="interview-section">
+      <div class="container">
+        <h2>Интервью</h2>
+        <div class="interview-grid">
+          <div class="interview-card">
+            <h3>Интервью с Иваном Ивановым</h3>
+            <p>Образование, творчество и мотивация.</p>
+            <button>Читать</button>
+          </div>
+          <div class="interview-card">
+            <h3>Интервью с Анной Петровой</h3>
+            <p>Как найти вдохновение.</p>
+            <button>Читать</button>
+          </div>
+          <div class="interview-card">
+            <h3>Интервью с Сергеем Сидоровым</h3>
+            <p>Путь к успеху в искусстве.</p>
+            <button>Читать</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Форма отправки заявки -->
+    <section id="form" class="form-section">
+      <div class="container">
+        <h2>Оставить заявку</h2>
+        <form>
+          <label for="name">Имя</label>
+          <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+          
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Ваш email" required>
+
+          <label for="message">Сообщение</label>
+          <textarea id="message" name="message" placeholder="Ваше сообщение" rows="5" required></textarea>
+          
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Голос автора. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
